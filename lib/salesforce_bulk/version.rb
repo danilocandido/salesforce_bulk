@@ -1,3 +1,3 @@
 module SalesforceBulk
-  VERSION = '41.0'.freeze
+  VERSION = '1.0.3'
 end

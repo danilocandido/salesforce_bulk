@@ -9,7 +9,7 @@ module SalesforceBulk
   # Your code goes here...
   class Api
 
-    @@SALESFORCE_API_VERSION = SalesforceBulk::VERSION
+    @@SALESFORCE_API_VERSION = '41.0'
 
     def initialize(username, password, in_sandbox=false)
       @connection = SalesforceBulk::Connection.new(username, password, @@SALESFORCE_API_VERSION, in_sandbox)
